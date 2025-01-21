@@ -1,2 +1,5 @@
-# tallerPocketGone
-Taller virtual de Pocket Gone
+# Intro
+Taller virtual para aprender a fabricar el dispositivo Pocket Gone. 
+
+
+
