@@ -8,7 +8,7 @@
 
 . Usando la computadora o el teléfono, buscar en las redes WiFi PocketGone:00:00:00:00:00 y anotar el MAC (los números que aparecen separados por :)
 
-. Solicitar el software del Pocket Gone cargando los datos de la compra del taller y el MAC en https://docs.google.com/forms/d/e/1FAIpQLSfWAT25AvJLHsDt7ttmmwvLS9UwRu3F0eclNkfT5Yf3g3Dklg/viewform?pli=1
+. Solicitar el software del Pocket Gone cargando los datos de la compra del taller y el MAC en https://shorturl.at/bW5cW
 
 
 
