@@ -10,9 +10,11 @@ Tras el pago de la inscripción reciben un link con un video paso a paso de este
 
 4. Usando la computadora o el teléfono, buscar en las redes WiFi PocketGone:00:00:00:00:00 y anotar el MAC (los números que aparecen separados por :)
 
-5. Solicitar el software del Pocket Gone cargando los datos de la compra del taller y el MAC en https://shorturl.at/bW5cW
+5. Solicitar el software del Pocket Gone cargando los datos de la compra del taller y el MAC en el link que figura en el email
 
 Importante: el software se entrega como un BIN compilado para la placa ESP32 informada. Si llegaran a necesitar un cambio de placa, eso tiene un costo ya que es un procedimiento manual.
+
+Junto al envío del BIN compilado van a recibir los archivos para impresión 3d y el link al paso 2, que contiene el montaje del circuito y el gabinete
 
 
 
