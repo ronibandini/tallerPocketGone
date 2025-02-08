@@ -1,3 +1,5 @@
+![DoubleGone](https://github.com/user-attachments/assets/3b4c8cd6-accb-4a2b-a758-60ee6b88f159)
+
 # Setup para Pocket Gone
 
 Tras el pago de la inscripción reciben un link con un video paso a paso de este procedimiento.
