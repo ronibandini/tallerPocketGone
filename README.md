@@ -20,5 +20,26 @@ Junto al envío del BIN compilado van a recibir los archivos para impresión 3d 
 
 ![PXL_20250123_215917301](https://github.com/user-attachments/assets/5f207de2-f029-4c2a-beee-f13e466c583d)
 
+# Algunos Pocket Gone que salieron del taller
+
+![PocketGoneUruguay](https://github.com/user-attachments/assets/d0d42cdd-2a53-4920-a716-7157fbde7380)
+
+![PocketGoneNaranja](https://github.com/user-attachments/assets/c4475be1-280f-4bef-987e-fcd33faa13c4)
+
+![PocketGoneEduardoSanMartin](https://github.com/user-attachments/assets/d2fb5b5b-baf3-4d6e-ba29-49794cda4a63)
+
+![PocketConCustomPCBUav](https://github.com/user-attachments/assets/416dcded-95e7-4cf8-8ffe-16f74d5da6d1)
+
+![PocketNegro](https://github.com/user-attachments/assets/5fc81357-3be2-4aa2-a21a-de99eb035241)
+
+![PocketAuto](https://github.com/user-attachments/assets/257e4322-da4f-4368-8e51-4d537dc3f114)
+
+
+![20250206_133616](https://github.com/user-attachments/assets/b3e41d38-0674-4ee6-999e-3eb38cf3cf48)
+
+
+
+
+
 
 
