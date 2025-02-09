@@ -1,4 +1,4 @@
-![DoubleGone](https://github.com/user-attachments/assets/3b4c8cd6-accb-4a2b-a758-60ee6b88f159)
+![PXL_20250123_215917301](https://github.com/user-attachments/assets/5f207de2-f029-4c2a-beee-f13e466c583d)
 
 # Setup para Pocket Gone
 
@@ -18,7 +18,6 @@ Importante: el software se entrega como un BIN compilado para la placa ESP32 inf
 
 Junto al envío del BIN compilado van a recibir los archivos para impresión 3d y el link al paso 2, que contiene el montaje del circuito y el gabinete
 
-![PXL_20250123_215917301](https://github.com/user-attachments/assets/5f207de2-f029-4c2a-beee-f13e466c583d)
 
 # Algunos Pocket Gone que salieron del taller
 
@@ -35,7 +34,6 @@ Junto al envío del BIN compilado van a recibir los archivos para impresión 3d 
 ![PocketAuto](https://github.com/user-attachments/assets/257e4322-da4f-4368-8e51-4d537dc3f114)
 
 
-![20250206_133616](https://github.com/user-attachments/assets/b3e41d38-0674-4ee6-999e-3eb38cf3cf48)
 
 
 
