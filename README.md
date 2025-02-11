@@ -33,6 +33,8 @@ Junto al envío del BIN compilado van a recibir los archivos para impresión 3d 
 
 ![PocketAuto](https://github.com/user-attachments/assets/257e4322-da4f-4368-8e51-4d537dc3f114)
 
+![PocketCustom](https://github.com/user-attachments/assets/81d68306-f2e9-4238-8e35-a6926cecb764)
+
 
 
 
