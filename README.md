@@ -18,6 +18,9 @@ Importante: el software se entrega como un BIN compilado para la placa ESP32 inf
 
 Junto al envío del BIN compilado van a recibir los archivos para impresión 3d y el link al paso 2, que contiene el montaje del circuito y el gabinete
 
+# Placa ESP32 con USBC
+
+Un alumno del taller virtual reportó haber utilizado un ESP32 con USBC, pieza F42-ESP32-CP2102-TYPEC Se consigue en AliExpress
 
 # Algunos Pocket Gone que salieron del taller
 
