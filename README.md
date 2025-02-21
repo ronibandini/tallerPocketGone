@@ -38,6 +38,9 @@ Un alumno del taller virtual reportó haber utilizado un ESP32 con USBC, pieza F
 
 ![PocketCustom](https://github.com/user-attachments/assets/81d68306-f2e9-4238-8e35-a6926cecb764)
 
+![Australia](https://github.com/user-attachments/assets/98ba13bc-a8d2-4140-980e-4a9dc5a5caa5)
+
+
 
 
 
