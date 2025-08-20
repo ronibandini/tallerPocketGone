@@ -13,7 +13,7 @@ Si ya cargaste el software BIN en la placa ESP32 podés diagnosticar el funciona
 # Subir foto de tu Pocket Gone armado 
 
 Para contribuir a la galería de Pocket Gone armados usar 
-[https://github.com/ronibandini/tallerPocketGone/issues](https://github.com/ronibandini/tallerPocketGone/issues/new/choose) y seleccionar Subir foto
+[https://github.com/ronibandini/tallerPocketGone/issues](subir foto acá) 
 
 # Algunos Pocket Gone que salieron del taller
 
