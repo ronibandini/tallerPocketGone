@@ -1,6 +1,6 @@
 ---
 name: Subir foto
-about: Indicar ciudad y país
+about: Form para subir fotos de tu Pocket Gone terminado
 title: ''
 labels: ''
 assignees: ''

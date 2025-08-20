@@ -1,6 +1,6 @@
 ---
 name: Soporte técnico
-about: Describir el asunto
+about: Pedido de soporte para el armado o la operación
 title: ''
 labels: ''
 assignees: ''
