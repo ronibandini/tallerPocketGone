@@ -1,4 +1,4 @@
-![PXL_20250123_215917301](https://github.com/user-attachments/assets/5f207de2-f029-4c2a-beee-f13e466c583d)
+<img width="1024" height="1024" alt="ChatGPT Image Jul 31, 2025, 05_26_36 PM" src="https://github.com/user-attachments/assets/7475d3b5-25a4-4552-954d-a397a551ca68" />
 
 # Soporte técnico
 
@@ -9,6 +9,11 @@ Para reportar dudas técnicas o problemas de funcionamiento nuevos con Pocket Go
 # Monitor serial
 
 Si ya cargaste el software BIN en la placa ESP32 podés diagnosticar el funcionamiento vía Monitor Serial. Tenés que conectar la placa con cable USB a la computadora, abrir el Arduino IDE, herramientas, monitor serial, 115200 baudios.
+
+# Subir foto de tu Pocket Gone armado 
+
+Para contribuir a la galería de Pocket Gone armados usar 
+https://github.com/ronibandini/tallerPocketGone/issues
 
 # Algunos Pocket Gone que salieron del taller
 
