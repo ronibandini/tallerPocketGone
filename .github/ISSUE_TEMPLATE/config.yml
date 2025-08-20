@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Preguntas generales
+    url: https://github.com/<your-org-or-user>/<your-repo>/discussions
+    about: Usa este espacio para consultas generales que no son bugs ni pedidos de soporte.
