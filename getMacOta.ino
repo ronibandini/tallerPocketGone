@@ -1,7 +1,8 @@
-// Pocket Gone Setup
+// Pocket Gone 1 Setup
 // V1.0 21-1-2025
 // GPL License
 // Tras subir el firmware a la placa, ver el MAC en redes WiFi Ejemplo(PocketGone:AB:12:34:56:78)
+// IMPORTANTE: este archivo solo es necesario para Pocket Gone versión 1
 
 #include <WiFi.h>
 #include <WiFiAP.h>
