@@ -1,6 +1,6 @@
 ---
 name: Soporte técnico
-about: Reportar problema
+about: Describir el asunto
 title: ''
 labels: ''
 assignees: ''
