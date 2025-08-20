@@ -1,10 +1,10 @@
-<img width="1024" height="1024" alt="ChatGPT Image Jul 31, 2025, 05_26_36 PM" src="https://github.com/user-attachments/assets/7475d3b5-25a4-4552-954d-a397a551ca68" />
+![PocketGone3](https://github.com/user-attachments/assets/526426c1-fef6-4118-a979-e0602d959733)
 
 # Soporte técnico
 
 Antes de reportar un problema técnico leer por favor las respuestas previas ya que muchas dudas se repiten. 
 
-Para reportar dudas técnicas o problemas de funcionamiento nuevos con Pocket Gone usar el siguiente link [https://github.com/ronibandini/tallerPocketGone/issues/new/choose](https://github.com/ronibandini/tallerPocketGone/issues/new/choose) y seleccionar Soporte técnico
+Para reportar dudas técnicas o problemas de funcionamiento nuevos con Pocket Gone usar el siguiente link https://github.com/ronibandini/tallerPocketGone/issues/new/choose y seleccionar Soporte técnico
 
 # Monitor serial
 
@@ -13,7 +13,7 @@ Si ya cargaste el software BIN en la placa ESP32 podés diagnosticar el funciona
 # Subir foto de tu Pocket Gone armado 
 
 Para contribuir a la galería de Pocket Gone armados usar 
-[https://github.com/ronibandini/tallerPocketGone/issues](subir foto acá) 
+https://github.com/ronibandini/tallerPocketGone/issues/new/choose y seleccionar Subir foto
 
 # Algunos Pocket Gone que salieron del taller
 
