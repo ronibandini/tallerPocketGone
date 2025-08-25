@@ -33,6 +33,7 @@ https://github.com/ronibandini/tallerPocketGone/issues/new/choose y seleccionar 
 
 ![Australia](https://github.com/user-attachments/assets/98ba13bc-a8d2-4140-980e-4a9dc5a5caa5)
 
+![Pocket3](https://github.com/user-attachments/assets/4126d537-3d32-40ac-9898-e9ac1962aaa6)
 
 
 
