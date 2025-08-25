@@ -35,6 +35,9 @@ https://github.com/ronibandini/tallerPocketGone/issues/new/choose y seleccionar 
 
 ![Pocket3](https://github.com/user-attachments/assets/4126d537-3d32-40ac-9898-e9ac1962aaa6)
 
+<img width="836" height="1344" alt="Pocket1Smooth" src="https://github.com/user-attachments/assets/5fe57846-c975-4041-9290-41b14b0fadfe" />
+
+
 
 
 
