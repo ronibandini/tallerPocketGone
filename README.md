@@ -15,6 +15,13 @@ Si ya cargaste el software BIN en la placa ESP32 podés diagnosticar el funciona
 Para contribuir a la galería de Pocket Gone armados usar 
 https://github.com/ronibandini/tallerPocketGone/issues/new/choose y seleccionar Subir foto
 
+# Demos
+
+Alumno del taller silenciando la música de un bar a más de 40 metros de distancia https://www.youtube.com/shorts/B_DeBmhiZeQ
+Peach Cantenna https://www.youtube.com/shorts/vaToShxM9N8
+Paredes https://www.youtube.com/shorts/JLdHBQQWPZI
+Playa https://x.com/RoniBandini/status/1877721578584117513
+
 # Algunos Pocket Gone que salieron del taller
 
 ![PocketGoneUruguay](https://github.com/user-attachments/assets/d0d42cdd-2a53-4920-a716-7157fbde7380)
