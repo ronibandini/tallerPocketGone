@@ -1,5 +1,9 @@
 ![PocketGone3](https://github.com/user-attachments/assets/526426c1-fef6-4118-a979-e0602d959733)
 
+# Manual de Pocket Gone
+
+El manual actualizado de Pocket Gone 3 puede ser descargado de https://www.scribd.com/document/895676548/Manual-de-Pocket-Gone-3
+
 # Soporte técnico
 
 Antes de reportar un problema técnico leer por favor las respuestas previas ya que muchas dudas se repiten. 
