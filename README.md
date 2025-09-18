@@ -8,7 +8,7 @@ El manual actualizado de Pocket Gone 3 puede ser descargado de https://www.scrib
 
 Antes de reportar un problema técnico leer por favor las respuestas previas ya que muchas dudas se repiten. 
 
-Para reportar dudas técnicas o problemas de funcionamiento nuevos con Pocket Gone usar el siguiente link https://github.com/ronibandini/tallerPocketGone/issues/new/choose y seleccionar Soporte técnico
+Para reportar dudas técnicas o problemas de funcionamiento nuevos con Pocket Gone usar el siguiente link https://github.com/ronibandini/tallerPocketGone/issues/new/choose y seleccionar Soporte técnico. Issues solo está habilitado para consultas técnicas de alumnos del taller. 
 
 # Monitor serial
 
