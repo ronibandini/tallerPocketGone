@@ -1,8 +1,14 @@
 ![PocketGone3](https://github.com/user-attachments/assets/526426c1-fef6-4118-a979-e0602d959733)
 
+Pocket Gone es una herramienta de diagnóstico para parlantes Bluetooth que incluye un modo de silenciamiento, el cual solo debe ser utilizado con parlantes propios. 
+
 # Manual de Pocket Gone
 
-El manual actualizado de Pocket Gone 3 puede ser descargado de https://www.scribd.com/document/895676548/Manual-de-Pocket-Gone-3
+El manual actualizado de Pocket Gone 3 puede ser descargado de [https://www.scribd.com/document/895676548/Manual-de-Pocket-Gone-3](https://www.scribd.com/document/895676548/Manual-de-Pocket-Gone)
+
+# Visualización de diagnósticos
+
+En la versión 4 es posible acceder al modo diagnóstico desde Monitor Serial, 115200 baudios. El dispositivo estima los canales congestionados en la frecuencia de los parlantes Bluetooth, así como genera un listado de dispositivos en modo pair. Para acceder al modo diagnóstico es necesario tener un jumper cable conectado entre el pin D25 y GND.
 
 # Soporte técnico
 
@@ -12,7 +18,7 @@ Para reportar dudas técnicas o problemas de funcionamiento nuevos con Pocket Go
 
 # Monitor serial
 
-Si ya cargaste el software BIN en la placa ESP32 podés diagnosticar el funcionamiento vía Monitor Serial. Tenés que conectar la placa con cable USB a la computadora, abrir el Arduino IDE, herramientas, monitor serial, 115200 baudios.
+Independiente del diagnóstico de la versión 4, todas las versiones permiten determinar si el módulo de RF se encuentra bien cableado e inicializado y si las pulsaciones del botón son reconocidas. Si ya cargaste el software BIN en la placa ESP32 tenés que conectar la placa con cable USB a la computadora, abrir el Arduino IDE, herramientas, monitor serial, 115200 baudios.
 
 # Subir foto de tu Pocket Gone armado 
 
