@@ -1,4 +1,4 @@
-![PocketGone3](https://github.com/user-attachments/assets/526426c1-fef6-4118-a979-e0602d959733)
+<img width="1024" height="1536" alt="ChatGPT Image Oct 22, 2025, 02_33_44 PM" src="https://github.com/user-attachments/assets/a8bff26c-8a67-44d8-9b13-727d294441f5" />
 
 Pocket Gone es una herramienta de diagnóstico para parlantes Bluetooth que incluye un modo de silenciamiento, el cual solo debe ser utilizado con parlantes propios. 
 
