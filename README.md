@@ -14,7 +14,7 @@ En la versión 4 es posible acceder al modo diagnóstico desde Monitor Serial, 1
 
 Antes de reportar un problema técnico leer por favor las respuestas previas ya que muchas dudas se repiten. 
 
-Para reportar dudas técnicas o problemas de funcionamiento nuevos con Pocket Gone usar el siguiente link https://github.com/ronibandini/tallerPocketGone/issues/new/choose y seleccionar Soporte técnico. Issues solo está habilitado para consultas técnicas de alumnos del taller. 
+Para reportar dudas técnicas o problemas de funcionamiento nuevos con Pocket Gone usar el siguiente link https://github.com/ronibandini/tallerPocketGone/issues/new/choose y seleccionar Soporte técnico. Issues solo está habilitado para consultas técnicas de alumnos del taller virtual o presencial. Cualquier mensaje puede ser eliminado o editado con el fin de mantener el propósito del espacio.
 
 # Monitor serial
 
