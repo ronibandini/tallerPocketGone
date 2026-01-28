@@ -1,6 +1,3 @@
-# Novedades
-Del 29/12 al 20/1 la asistencia manual estará interrumpida. Buscar solución a problemas similares en https://github.com/ronibandini/tallerPocketGone/issues?q=is%3Aissue%20state%3Aclosed
-
 # Qué es Pocket Gone 
 Pocket Gone es una herramienta de diagnóstico para parlantes Bluetooth que incluye un modo de silenciamiento, el cual solo debe ser utilizado con parlantes propios. 
 
