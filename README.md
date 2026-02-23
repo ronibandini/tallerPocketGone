@@ -24,6 +24,9 @@ Independiente del diagnóstico de la versión 4, todas las versiones permiten de
 Para contribuir a la galería de Pocket Gone armados usar 
 https://github.com/ronibandini/tallerPocketGone/issues/new/choose y seleccionar Subir foto
 
+# Peach Cantenna
+Cómo conseguir el tutorial sin cargo del Peach Cantenna https://www.youtube.com/shorts/9D4QXmoz1AM
+
 # Demos
 
 Alumno del taller silenciando la música de un bar a más de 40 metros de distancia https://www.youtube.com/shorts/B_DeBmhiZeQ
