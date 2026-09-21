@@ -16,29 +16,6 @@ Este repositorio funciona como **soporte técnico del taller**: armado, firmware
 
 ---
 
-## 📚 Índice
-
-* [🆘 Soporte técnico](#-soporte-técnico)
-* [📡 ¿Qué es Pocket Gone?](#-qué-es-pocket-gone)
-* [📦 Cómo obtener un Pocket Gone](#-cómo-obtener-un-pocket-gone)
-* [🧰 Especificaciones actuales](#-especificaciones-actuales)
-* [🧩 Materiales del taller](#-materiales-del-taller)
-* [💻 Firmware y software](#-firmware-y-software)
-* [🖥️ Monitor Serie](#️-monitor-serie)
-* [🧪 Modo diagnóstico V4/V4D](#-modo-diagnóstico-v4v4d)
-* [🔧 Troubleshooting](#-troubleshooting)
-* [🔥 10 temas más recurrentes](#-10-temas-más-recurrentes)
-* [💬 Mensajes de soporte frecuentes](#-mensajes-de-soporte-frecuentes)
-* [📷 Cómo reportar un problema](#-cómo-reportar-un-problema)
-* [📐 Gabinete y archivos 3D](#-gabinete-y-archivos-3d)
-* [🍑 Peach Cantenna](#-peach-cantenna)
-* [❓ Preguntas frecuentes](#-preguntas-frecuentes)
-* [📜 Versiones](#-versiones)
-* [📜 Licencia y condiciones de uso](#-licencia-y-condiciones-de-uso)
-* [🔗 Enlaces](#-enlaces)
-
----
-
 # 🆘 Soporte técnico
 
 ## Antes de abrir una Issue
