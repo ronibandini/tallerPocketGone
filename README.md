@@ -5,8 +5,6 @@ Pocket Gone es una herramienta de diagnóstico para parlantes Bluetooth que incl
 
 # Manual de Pocket Gone
 
-<img width="984" height="1538" alt="TapaManualOk" src="https://github.com/user-attachments/assets/ac53adf0-25f5-4efb-84f0-1db09b4a0f35" />
-
 El manual actualizado de Pocket Gone se encuentra en https://www.scribd.com/document/895676548/Manual-de-Pocket-Gone
 
 # Diagnósticos Bluetooth
