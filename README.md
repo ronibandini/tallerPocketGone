@@ -18,7 +18,6 @@ Este repositorio funciona como **soporte técnico del taller**: armado, firmware
 
 ## 📚 Índice
 
-* [🚀 Primeros pasos](#-primeros-pasos)
 * [🆘 Soporte técnico](#-soporte-técnico)
 * [📡 ¿Qué es Pocket Gone?](#-qué-es-pocket-gone)
 * [📦 Cómo obtener un Pocket Gone](#-cómo-obtener-un-pocket-gone)
@@ -40,60 +39,6 @@ Este repositorio funciona como **soporte técnico del taller**: armado, firmware
 
 ---
 
-# 🚀 Primeros pasos
-
-Si acabás de armar tu Pocket Gone:
-
-### 1. 🔧 Revisá el hardware
-
-Verificá:
-
-* ESP32 correctamente conectado.
-* Módulo de radiofrecuencia correctamente conectado.
-* GND común.
-* Alimentación correcta.
-* LED correctamente conectado.
-* Pulsador correctamente conectado.
-* Antena correctamente conectada.
-
-### 2. 🔌 Conectá el ESP32 por USB
-
-Usá un **cable USB que transmita datos**, no solamente alimentación.
-
-### 3. 📥 Cargá el firmware
-
-Seguí el procedimiento correspondiente a tu versión de Pocket Gone y a la placa ESP32 utilizada.
-
-### 4. 🖥️ Abrí el Monitor Serie
-
-En Arduino IDE:
-
-**Tools → Serial Monitor**
-
-Configuración:
-
-```text
-115200 baud
-```
-
-### 5. 🔘 Probá el botón
-
-Presioná el botón y observá el Monitor Serie.
-
-El Monitor Serie es una de las herramientas más importantes para diagnosticar:
-
-* versión de software
-* comunicación con el módulo RF
-* reconocimiento del botón
-* información de diagnóstico
-* problemas de inicialización
-
-### 6. 🆘 Si sigue sin funcionar
-
-Buscá primero una solución en las Issues cerradas antes de abrir una nueva.
-
----
-
 # 🆘 Soporte técnico
 
 ## Antes de abrir una Issue
@@ -101,8 +46,6 @@ Buscá primero una solución en las Issues cerradas antes de abrir una nueva.
 1. 🔎 Buscá tu problema en las [Issues cerradas](https://github.com/ronibandini/tallerPocketGone/issues?q=is%3Aissue%20state%3Aclosed)
 2. 📖 Consultá el [manual](https://www.scribd.com/document/895676548/Manual-de-Pocket-Gone)
 3. 🖥️ Probá el Monitor Serie a **115200 baud**
-4. 📷 Prepará fotografías claras del montaje
-5. 📋 Copiá el mensaje completo del Monitor Serie
 
 ---
 
@@ -120,18 +63,6 @@ El repositorio está destinado al soporte de alumnos del taller, tanto presencia
 
 ---
 
-## 📧 Contacto
-
-También podés consultar por correo:
-
-**[holapocketgone@gmail.com](mailto:holapocketgone@gmail.com)**
-
-Sitio oficial:
-
-👉 [pocketgone.com](https://pocketgone.com/)
-
----
-
 # 📡 ¿Qué es Pocket Gone?
 
 Pocket Gone es un proyecto **experimental y educativo** orientado al diagnóstico de parlantes Bluetooth.
@@ -145,40 +76,13 @@ Entre sus funciones se incluyen:
 * 📡 experimentación con antenas externas
 * 🧰 montaje y aprendizaje de hardware y firmware
 
-La versión publicada actualmente en el sitio oficial es:
+La última versión es:
 
 > **Pocket Gone 5 — Septiembre de 2026**
 
 Pocket Gone **no se comercializa como producto terminado**. El proyecto se obtiene mediante el taller, que proporciona los materiales y la documentación necesarios para armarlo.
 
-> ⚠️ Si encontrás un Pocket Gone ofrecido como producto comercial terminado, verificá cuidadosamente la procedencia.
-
----
-
-# 📦 Cómo obtener un Pocket Gone
-
-El sitio oficial propone obtener Pocket Gone mediante el **Taller Pocket Gone**.
-
-El taller incluye:
-
-* 🧩 lista de materiales
-* 🎥 video paso a paso
-* 💻 firmware compilado
-* 📐 archivos para imprimir el gabinete
-* 📖 manual
-* 🆘 soporte técnico
-
-No hace falta tener conocimientos avanzados de electrónica.
-
-Para el armado básico se utilizan herramientas simples, principalmente:
-
-* USB
-* navegador
-* destornillador
-
-No es obligatorio disponer de una impresora 3D: el gabinete puede imprimirse por terceros o reemplazarse por un diseño propio.
-
-👉 [Más información y taller](https://pocketgone.com/)
+> ⚠️ Si encontrás un Pocket Gone ofrecido como producto comercial es una estafa.
 
 ---
 
@@ -205,95 +109,7 @@ Información publicada para **Pocket Gone 5**:
 
 ---
 
-# 🧩 Materiales del taller
-
-La propuesta actual del taller utiliza una cantidad reducida de componentes.
-
-El sitio oficial indica aproximadamente **dos componentes principales, con un costo total orientativo cercano a US$15**, dependiendo del proveedor y del país.
-
-Los componentes se pueden conseguir mediante:
-
-* Amazon
-* MercadoLibre
-* casas de electrónica
-* proveedores locales
-
-Los precios y la disponibilidad pueden cambiar.
-
----
-
-# 💻 Firmware y software
-
-## Firmware compilado
-
-Para determinadas versiones del taller se proporciona un archivo:
-
-```text
-.bin
-```
-
-Este firmware puede cargarse en el ESP32 mediante el procedimiento indicado en el taller.
-
----
-
-## ⚠️ El archivo `.bin` no funciona como un sketch Arduino
-
-El archivo compilado debe cargarse en la placa siguiendo el procedimiento correspondiente.
-
-No es necesario modificar el firmware para realizar las pruebas habituales del taller.
-
----
-
-## Pocket Gone V1: herramienta `getMacOta.ino`
-
-En Pocket Gone V1 se utilizó el sketch:
-
-```text
-getMacOta.ino
-```
-
-Este programa permite obtener la dirección MAC de la placa y preparar el acceso para la actualización del firmware.
-
-El flujo histórico de V1 utiliza la dirección:
-
-```text
-http://10.10.10.1/update
-```
-
-> ℹ️ Esta herramienta corresponde a versiones antiguas. No asumir que el procedimiento V1 es aplicable a Pocket Gone 5.
-
----
-
-# 🖥️ Monitor Serie
-
-El Monitor Serie de Arduino IDE es una herramienta fundamental para soporte.
-
-Configuración:
-
-```text
-115200 baud
-```
-
-Si algo no funciona, **copiá el texto completo del Monitor Serie** en la Issue.
-
-No envíes solamente una captura parcial cuando sea posible.
-
-### Información especialmente útil
-
-```text
-Versión de software
-Inicialización del ESP32
-Inicialización del módulo RF
-MAC autorizada
-Pulsaciones del botón
-Mensajes de error
-```
-
----
-
-# 🧪 Modo diagnóstico V4/V4D
-
-> ⚠️ Esta sección corresponde específicamente a las versiones **V4/V4D** documentadas en el repositorio y el manual. No asumir que la misma conexión aplica a Pocket Gone 5.
+# 🧪 Modo diagnóstico 
 
 El modo diagnóstico permite:
 
@@ -305,7 +121,7 @@ El modo diagnóstico permite:
 
 ## 🔌 Activación del modo diagnóstico
 
-En las versiones documentadas como V4/V4D se utiliza un jumper entre:
+Instalá un jumper entre:
 
 ```text
 D25 ───── GND
@@ -323,324 +139,193 @@ Luego:
 
 4. Observá la salida de diagnóstico.
 
-> ℹ️ Retirá el jumper antes de utilizar el modo correspondiente al botón.
+---
+---
+
+# 🍑 Peach Cantenna
+
+La **Peach Cantenna** es una antena externa experimental que puede utilizarse con Pocket Gone.
+
+🎥 Tutorial:
+
+👉 [Peach Cantenna — video](https://www.youtube.com/shorts/9D4QXmoz1AM)
+
+También existen otras experiencias con antenas externas documentadas en el proyecto.
+
+> ℹ️ El rendimiento de una antena depende de la geometría, conectores, cableado, posición y entorno. Una antena físicamente más grande no implica automáticamente un mejor resultado.
 
 ---
 
-# 🔧 Troubleshooting
+# ❓ Preguntas frecuentes
 
-## 🔌 1. El ESP32 enciende pero la computadora no lo detecta
+## ¿Hace falta saber electrónica?
 
-Probá:
+No.
 
-* otro cable USB
-* otro puerto USB
-* otro equipo
-* verificar el Administrador de dispositivos
-* revisar si aparece un puerto COM/serial
-
-### Causa muy frecuente
-
-El cable USB puede proporcionar alimentación pero no datos.
+El taller está pensado para poder realizar el montaje siguiendo las instrucciones y el video paso a paso.
 
 ---
 
-## 🖥️ 2. No aparece ningún puerto COM
+## ¿Necesito una impresora 3D?
 
-En Windows:
+No.
 
-1. Abrí **Administrador de dispositivos**
-2. Revisá **Puertos (COM y LPT)**
-3. Desconectá y reconectá la placa
-4. Observá si aparece o desaparece algún dispositivo
-
-Si no aparece nada, el problema puede estar relacionado con:
-
-* cable USB
-* driver
-* placa
-* conector USB
-* alimentación
-
-Issue representativa:
-
-👉 [#40 — Sin puertos COM](https://github.com/ronibandini/tallerPocketGone/issues/40)
+Podés imprimir el gabinete mediante un servicio externo o utilizar una solución propia.
 
 ---
 
-## 🧩 3. No aparece "DOIT ESP32 DEVKIT V1"
+## ¿Qué alimentación utiliza?
 
-Este es uno de los problemas más repetidos del taller.
+Pocket Gone 5 utiliza **USB-C y 5 V DC**.
 
-Revisá que el paquete de placas ESP32 esté instalado correctamente.
+Se puede alimentar con:
 
-En Arduino IDE:
-
-```text
-Tools
-→ Board
-→ Boards Manager
-→ ESP32
-```
-
-Después verificá las placas disponibles.
-
-Issues relacionadas:
-
-* [#9 — Doit Dev Kit V1 no aparece](https://github.com/ronibandini/tallerPocketGone/issues/9)
-* [#17 — No me aparece el DOIT ESP32 DevKit V1](https://github.com/ronibandini/tallerPocketGone/issues/17)
-* [#27 — No aparece DOIT ESP32 DEVKIT V1](https://github.com/ronibandini/tallerPocketGone/issues/27)
-* [#39 — No encuentra la placa](https://github.com/ronibandini/tallerPocketGone/issues/39)
-
----
-
-# 📥 4. El firmware no carga
-
-Los errores de carga pueden aparecer por:
-
-* puerto incorrecto
-* placa incorrecta
-* cable USB
-* modo de boot
-* conexión con el puerto serial
-* problemas con `esptool`
-* imagen `.bin` incorrecta o dañada
-
-### Prueba básica
-
-```text
-1. Desconectar ESP32
-2. Cerrar Monitor Serie
-3. Reconectar USB
-4. Seleccionar puerto correcto
-5. Seleccionar placa correcta
-6. Volver a cargar
-```
-
-Issues relacionadas:
-
-* [#10 — MD5 de archivo no coincide](https://github.com/ronibandini/tallerPocketGone/issues/10)
-* [#31 — Error de carga](https://github.com/ronibandini/tallerPocketGone/issues/31)
-* [#38 — Wrong boot mode detected](https://github.com/ronibandini/tallerPocketGone/issues/38)
-* [#56 — ESPtool](https://github.com/ronibandini/tallerPocketGone/issues/56)
-
----
-
-# 🌐 5. No puedo abrir `10.10.10.1/update`
-
-Este problema corresponde principalmente al procedimiento histórico de actualización de versiones antiguas.
-
-Revisá:
-
-* que estés conectado a la red Wi-Fi correcta
-* que el ESP32 haya creado su red
-* que la URL sea exactamente la indicada
-* que el firmware utilizado corresponda a tu versión
-
-Issue relacionada:
-
-👉 [#43 — Problema en cargar el código BIN](https://github.com/ronibandini/tallerPocketGone/issues/43)
-
-> ℹ️ No utilizar este procedimiento como guía para Pocket Gone 5 salvo que la documentación específica de esa versión lo indique.
-
----
-
-# 💡 6. No enciende el LED
-
-Revisá:
-
-* alimentación
-* GND
-* polaridad del LED
-* resistencia
-* conexiones de la placa
-* cableado del botón, si forma parte del circuito del LED
-
-Issue representativa:
-
-👉 [#2 — No funciona LED](https://github.com/ronibandini/tallerPocketGone/issues/2)
-
----
-
-# 🔘 7. El botón no funciona
-
-Primero verificá el Monitor Serie.
-
-Si el ESP32 funciona pero al pulsar el botón no aparece ninguna actividad:
-
-* revisá el cableado
-* verificá GND
-* revisá el modelo de pulsador
-* verificá los pines utilizados
-
-Issues relacionadas:
-
-* [#3 — No funciona botón](https://github.com/ronibandini/tallerPocketGone/issues/3)
-* [#4 — Botón](https://github.com/ronibandini/tallerPocketGone/issues/4)
-* [#29 — El botón de activación se pone engañoso](https://github.com/ronibandini/tallerPocketGone/issues/29)
-
----
-
-# 📡 8. Problemas con el módulo RF
-
-Revisá:
-
-* VCC
-* GND
-* líneas de señal
-* alimentación estable
-* conectores
-* soldaduras
-* antena
-
-No asumas inmediatamente que el problema está en el firmware.
-
-Primero comprobá:
-
-```text
-Alimentación
-↓
-Cableado
-↓
-Inicialización
-↓
-Botón
-↓
-Módulo RF
-```
-
-Issue representativa:
-
-👉 [#37 — Problemas en el funcionamiento luego del montado](https://github.com/ronibandini/tallerPocketGone/issues/37)
-
----
-
-# 🔊 9. No silencia el parlante
-
-Antes de abrir una Issue comprobá:
-
-### Parlante
-
-Debe tratarse de un parlante que esté:
-
-* reproduciendo audio por Bluetooth
-* utilizando Bluetooth Classic
-* recibiendo efectivamente la música por Bluetooth
-
-No es equivalente a:
-
-* entrada AUX
-* USB
-* reproducción desde otra fuente
-
-### Distancia
-
-La geometría entre:
-
-```text
-Transmisor → Parlante → Pocket Gone
-```
-
-es importante.
-
-El manual recomienda realizar las primeras pruebas con el transmisor y el Pocket Gone separados del parlante y probar distintas posiciones.
-
-### También verificá
-
-* antena
-* módulo RF
-* alimentación
-* cableado
-* Monitor Serie
-
-Issues representativas:
-
-* [#11 — No desconecta el parlante JBL](https://github.com/ronibandini/tallerPocketGone/issues/11)
-* [#20 — No silencia la música, solo la entrecorta](https://github.com/ronibandini/tallerPocketGone/issues/20)
-* [#26 — No corta la música](https://github.com/ronibandini/tallerPocketGone/issues/26)
-* [#62 — Pocket Gone 3](https://github.com/ronibandini/tallerPocketGone/issues/62)
-
----
-
-# 📉 10. Funciona, pero tiene muy poco alcance
-
-El alcance depende de múltiples variables:
-
-* potencia del módulo RF
-* antena
-* posición de la antena
-* posición del transmisor
-* posición del parlante
-* posición del Pocket Gone
-* obstáculos
-* paredes
-* humedad y otros factores de propagación
-* alimentación del módulo
-
-Si el alcance es muy bajo, probá primero:
-
-1. otra posición
-2. otra antena
-3. otro módulo RF, si tenés uno disponible
-4. conexiones más cortas
-5. alimentación estable
-
-Issue particularmente útil:
-
-👉 [#46 — Aparentemente funciona, pero muy poco alcance](https://github.com/ronibandini/tallerPocketGone/issues/46)
-
----
-
-# 📡 Antenas externas
-
-Pocket Gone puede utilizar antenas externas compatibles.
-
-Antes de cambiar la antena:
-
-* verificá el conector
-* verificá que sea compatible
-* revisá que no exista un problema de cableado
-* compará los resultados con la antena original
-
-Issues relacionadas:
-
-* [#8 — Antena](https://github.com/ronibandini/tallerPocketGone/issues/8)
-* [#35 — Antenna doubt](https://github.com/ronibandini/tallerPocketGone/issues/35)
-* [#36 — Mayor penetración en pared](https://github.com/ronibandini/tallerPocketGone/issues/36)
-
----
-
-# 🔄 11. El dispositivo se reinicia
-
-Si el ESP32 entra en un ciclo de reinicios:
-
-Revisá especialmente:
-
-* alimentación
+* smartphone 
+* power bank
 * fuente de 5 V
-* conexiones
-* módulo RF
-* cables Dupont
-* cortocircuitos
-
-Un comportamiento repetitivo de:
-
-```text
-LED ON
-↓
-LED OFF
-↓
-RESET
-↓
-LED ON
-```
-
-puede indicar que el sistema está reiniciándose o que la alimentación no es estable.
-
-Issue relacionada:
-
-👉 [#22 — Reseteo](https://github.com/ronibandini/tallerPocketGone/issues/22)
 
 ---
 
-# 🔤 12. El Monitor Serie mues
+## ¿Pocket Gone funciona con cualquier parlante Bluetooth?
+
+La función de diagnóstico/silenciamiento documentada está orientada a parlantes que reciben audio mediante **Bluetooth Classic**.
+
+No debe asumirse el mismo comportamiento para:
+
+* AUX
+* USB
+* otras fuentes de audio
+* otras tecnologías inalámbricas
+
+---
+
+## ¿Pocket Gone puede abrir o desactivar un cierre de automóvil?
+
+No.
+
+Los sistemas de cierre remoto de vehículos normalmente operan en bandas distintas de la banda de 2,4 GHz utilizada por Pocket Gone.
+
+---
+
+## ¿Pocket Gone puede desactivar GPS o GSM?
+
+No.
+
+GPS y redes celulares utilizan otras bandas de frecuencia.
+
+---
+
+## ¿Pocket Gone bloquea Wi-Fi?
+
+El funcionamiento de diagnóstico no debe interpretarse como un inhibidor general de Wi-Fi. La frecuencia de 5.8ghz no se ve afectada y la de 2.4 solo en ciertos canales y dejando una ventana de comunicación.
+
+El sistema está orientado a experimentación y diagnóstico en el contexto específico documentado por Pocket Gone.
+
+---
+
+## ¿Por qué a veces no funciona cuando el teléfono está muy cerca del parlante?
+
+Cuando el emisor está muy cerca del parlante puede resultar difícil o imposible disputar la señal.  
+
+Probá modificando la posición de Pocket Gone.
+
+Issue relacionada:
+
+👉 [#61 — Información](https://github.com/ronibandini/tallerPocketGone/issues/61)
+
+---
+
+## ¿Por qué mi Pocket Gone funciona con una antena y no con otra?
+
+Revisá:
+
+* tipo de conector
+* continuidad
+* cable
+* adaptación
+* montaje
+* posición
+
+Issue relacionada:
+
+👉 [#35 — Antenna doubt](https://github.com/ronibandini/tallerPocketGone/issues/35)
+
+---
+
+## ¿Por qué funciona durante unos segundos y después parece detenerse?
+
+El ciclo de operación es 50 segundos versus 10 segundos de ventana.
+
+---
+
+# 📜 Versiones
+
+Pocket Gone ha evolucionado en varias versiones.
+
+| Versión | Fecha aproximada | Nota                           |
+| ------- | ---------------- | ------------------------------ |
+| Beta    | Diciembre 2024   | Primer desarrollo              |
+| V1      | Febrero 2025     | Primera versión del taller     |
+| V2      | Junio 2025       | Evolución de hardware/software |
+| V3      | Agosto 2025      | Nueva iteración                |
+| V4D     | Octubre 2025     | Diagnóstico ampliado           |
+| V5      | Septiembre 2026  | Versión actual publicada       |
+
+> ⚠️ Los procedimientos de firmware, pines y diagnóstico pueden cambiar entre versiones.
+
+---
+
+# 🎥 Videos y demostraciones
+
+* 🎵 [Demostración de Pocket Gone](https://www.youtube.com/shorts/B_DeBmhiZeQ)
+* 🍑 [Peach Cantenna](https://www.youtube.com/shorts/vaToShxM9N8)
+* 🧱 [Prueba a través de paredes](https://www.youtube.com/shorts/JLdHBQQWPZI)
+* 🏖️ [Demostración en playa](https://x.com/RoniBandini/status/1877721578584117513)
+
+---
+
+# 📖 Manual
+
+👉 [Manual de Pocket Gone](https://www.scribd.com/document/895676548/Manual-de-Pocket-Gone)
+
+El manual contiene información adicional sobre:
+
+* montaje
+* alimentación
+* diagnóstico
+* versiones
+* antenas
+* resolución de problemas
+* modos de funcionamiento
+
+---
+
+# 🔗 Enlaces
+
+| Recurso            | Enlace                                                                                                |
+| ------------------ | ----------------------------------------------------------------------------------------------------- |
+| 🌐 Sitio oficial   | [pocketgone.com](https://pocketgone.com/)                                                             |
+| 💻 Soporte         | [tallerPocketGone](https://github.com/ronibandini/tallerPocketGone)                                   |
+| 🆘 Issues cerradas | [GitHub Issues](https://github.com/ronibandini/tallerPocketGone/issues?q=is%3Aissue%20state%3Aclosed) |
+| 📝 Nueva Issue     | [Abrir Issue](https://github.com/ronibandini/tallerPocketGone/issues/new/choose)                      |
+| 📖 Manual          | [Manual de Pocket Gone](https://www.scribd.com/document/895676548/Manual-de-Pocket-Gone)              |
+
+---
+
+# 📜 Licencia y condiciones de uso
+
+Pocket Gone es un proyecto **experimental y educativo**.
+
+El proyecto no constituye un instrumento certificado de medición de RF y los resultados de diagnóstico no deben interpretarse como mediciones profesionales.
+
+Cada usuario es responsable por:
+
+* el uso del dispositivo
+* el cumplimiento de las normas locales
+* la utilización sobre equipos propios o autorizados
+* cualquier modificación realizada al hardware o software
+
+Consultá la legislación aplicable antes de utilizar cualquier equipo que pueda afectar comunicaciones inalámbricas.
+
+Revisá el archivo [`LICENSE`](LICENSE) del repositorio para conocer las condiciones de distribución del código y materiales.
+
