@@ -22,7 +22,7 @@ Este repositorio funciona como **soporte técnico del taller**: armado, firmware
 
 1. 🔎 Buscá tu problema en las [Issues cerradas](https://github.com/ronibandini/tallerPocketGone/issues?q=is%3Aissue%20state%3Aclosed)
 2. 📖 Consultá el [manual](https://www.scribd.com/document/895676548/Manual-de-Pocket-Gone)
-3. 🖥️ Probá el Monitor Serie a **115200 baud**
+3. 🖥️ Si ya cargaste el software y no funciona, conecta el cable USB a la computadora y abrí Arduino IDE, Monitor Serie a **115200 baud** o bien la app de Android Serial USB Terminal. Ahí vas a poder ver información de utilidad sobre el error
 
 ---
 
