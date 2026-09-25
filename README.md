@@ -285,7 +285,7 @@ El manual contiene información adicional sobre:
 | 💻 Soporte         | [tallerPocketGone](https://github.com/ronibandini/tallerPocketGone)                                   |
 | 🆘 Issues cerradas | [GitHub Issues](https://github.com/ronibandini/tallerPocketGone/issues?q=is%3Aissue%20state%3Aclosed) |
 | 📝 Nueva Issue     | [Abrir Issue](https://github.com/ronibandini/tallerPocketGone/issues/new/choose)                      |
-| 📖 Manual          | [Manual de Pocket Gone](https://www.scribd.com/document/895676548/Manual-de-Pocket-Gone)              |
+| 📖 Manual          | [Manual de Pocket Gone](https://pocketgone.com/read/manual.html)              |
 
 ---
 
