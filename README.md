@@ -8,6 +8,8 @@
 [![Website](https://img.shields.io/badge/Web-pocketgone.com-blue)](https://pocketgone.com/)
 [![Current Version](https://img.shields.io/badge/Versi%C3%B3n-5-orange)](https://pocketgone.com/)
 
+👉 [Manual de Pocket Gone](https://pocketgone.com/read/manual.html)
+
 Pocket Gone es un dispositivo maker experimental para **diagnóstico de parlantes Bluetooth**, con funciones adicionales orientadas a pruebas con equipos propios.
 
 Este repositorio funciona como **soporte técnico del taller**: armado, firmware, diagnóstico, resolución de problemas, preguntas frecuentes, fotografías y materiales relacionados.
@@ -263,7 +265,7 @@ Pocket Gone ha evolucionado en varias versiones.
 
 # 📖 Manual
 
-👉 [Manual de Pocket Gone](https://www.scribd.com/document/895676548/Manual-de-Pocket-Gone)
+👉 [Manual de Pocket Gone](https://pocketgone.com/read/manual.html)
 
 El manual contiene información adicional sobre:
 
