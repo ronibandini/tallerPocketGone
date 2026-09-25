@@ -8,8 +8,6 @@
 [![Website](https://img.shields.io/badge/Web-pocketgone.com-blue)](https://pocketgone.com/)
 [![Current Version](https://img.shields.io/badge/Versi%C3%B3n-5-orange)](https://pocketgone.com/)
 
-👉 [Manual de Pocket Gone](https://pocketgone.com/read/manual.html)
-
 Pocket Gone es un dispositivo maker experimental para **diagnóstico de parlantes Bluetooth**, con funciones adicionales orientadas a pruebas con equipos propios.
 
 Este repositorio funciona como **soporte técnico del taller**: armado, firmware, diagnóstico, resolución de problemas, preguntas frecuentes, fotografías y materiales relacionados.
@@ -23,7 +21,7 @@ Este repositorio funciona como **soporte técnico del taller**: armado, firmware
 ## Antes de abrir una Issue
 
 1. 🔎 Buscá tu problema en las [Issues cerradas](https://github.com/ronibandini/tallerPocketGone/issues?q=is%3Aissue%20state%3Aclosed)
-2. 📖 Consultá el [manual](https://www.scribd.com/document/895676548/Manual-de-Pocket-Gone)
+2. 📖 Consultá el [manual](https://pocketgone.com/read/manual.html)
 3. 🖥️ Si ya cargaste el software y no funciona, conecta el cable USB a la computadora y abrí Arduino IDE, Monitor Serie a **115200 baud** o bien la app de Android Serial USB Terminal. Ahí vas a poder ver información de utilidad sobre el error
 
 ---
